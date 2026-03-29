@@ -49,9 +49,22 @@
 
 //Question 5: Reverse Array
 
-let arr = [1,2,3,4,5];
-let reversArr = [ ];
-for(let i=arr.length-1; i>=0; i--){
-    reversArr.push(arr[i])
+// let arr = [1,2,3,4,5];
+// let reversArr = [ ];
+// for(let i=arr.length-1; i>=0; i--){
+//     reversArr.push(arr[i])
+// }
+// console.log(reversArr)
+
+//Find smallest element
+
+let arr =  [3, 7, 2, 9, 5]
+
+let smallest = arr[0];
+for(let i=0; i<arr.length; i++){
+    if(arr[i]<smallest){
+        smallest = arr[i]
+    }
 }
-console.log(reversArr)
+
+console.log(smallest);
