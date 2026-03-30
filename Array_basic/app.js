@@ -72,10 +72,70 @@
 
 //Question 7: Find average of array
 
-let arr = [3, 7, 2, 9, 5];
-let sum = 0;
-for(let i=0; i<arr.length; i++){
-    sum += arr[i]
-}
-console.log(sum/arr.length)
+// let arr = [3, 7, 2, 9, 5];
+// let sum = 0;
+// for(let i=0; i<arr.length; i++){
+//     sum += arr[i]
+// }
+// console.log(sum/arr.length)
 
+//Question 8: Find second largest element
+
+// let arr = [1,2,3,4,5];
+// let largest = arr[0];
+// let secLargest =arr[0];
+// for(let i=0; i<arr.length; i++){
+//     if(largest < arr[i]){
+//         largest = arr[i]
+//     }
+// }
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i] < largest && arr[i] > secLargest){
+//         secLargest = arr[i]
+//     }
+// }
+// console.log(secLargest); 
+
+//Question 9: Check if array sorted hai ya nahi
+
+// let arr = [1,2,3,4,5];
+// let isSorted = true;
+// for(let i=0; i<arr.length-1; i++){
+//     if(arr[i] > arr[i+1]){
+//         isSorted = false;
+        
+//     }
+// }
+// console.log(isSorted)
+
+// //Qustion 10: Count positive and negative numbers
+
+// let arr = [2,4,-5,-3,6];
+
+// let posi = 0;
+// let neg = 0;
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i] > 0){
+//         posi++;
+//     }if (arr[i] < 0) {
+//         neg++
+//     }
+// }
+// console.log(posi, neg)
+
+//Question 11:Find duplicate element
+
+let arr = [2,3,4,4,6,5,2,5];
+let dublicate = []
+for(let i = 0; i < arr.length; i++){
+
+    for(let j = i+1; j < arr.length; j++){
+
+        if(arr[i] == arr[j]){
+            dublicate.push(arr[j])
+        }
+
+    }
+
+}
+console.log(dublicate)
