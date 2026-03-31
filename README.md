@@ -16,34 +16,6 @@ Strings
 
 More topics will be added as I progress.
 
-📂 Repository Structure
-DSA-JavaScript
- │
- ├── Arrays
- │   ├── sumOfArray.js
- │   ├── largestElement.js
- │   ├── smallestElement.js
- │   ├── countEvenNumbers.js
- │   ├── reverseArray.js
- │   ├── averageArray.js
- │   ├── secondLargest.js
- │   ├── checkSorted.js
- │   ├── countPositiveNegative.js
- │   └── findDuplicate.js
- │
- ├── Strings
- │   ├── stringLength.js
- │   ├── reverseString.js
- │   ├── palindromeCheck.js
- │   ├── countVowels.js
- │   ├── countConsonants.js
- │   ├── characterFrequency.js
- │   ├── uppercaseToLowercase.js
- │   ├── firstRepeatingChar.js
- │   ├── removeSpaces.js
- │   └── anagramCheck.js
- │
- └── README.md
 📌 Array Problems
 
 These problems focus on array traversal and basic logic building.
