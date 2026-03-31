@@ -7,7 +7,7 @@ The goal is to improve problem-solving skills, build strong programming logic, a
 
 I am solving problems step by step starting from basic concepts to advanced topics.
 
-📚 Topics Covered
+📚 Topics Covered:
 
 Currently I am focusing on fundamental DSA concepts:
 
