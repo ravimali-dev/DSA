@@ -1,0 +1,3 @@
+let nums = [1,1,2,2,3,3];
+
+let count = ""
