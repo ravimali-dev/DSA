@@ -1,66 +1,88 @@
-🚀 Data Structures and Algorithms (JavaScript)
+# 🚀 Data Structures and Algorithms (JavaScript)
 
-Welcome to my Data Structures and Algorithms practice repository.
+Welcome to my Data Structures and Algorithms practice repository!
 
-This repository documents my journey of learning DSA using JavaScript.
-The goal is to improve problem-solving skills, build strong programming logic, and prepare for coding interviews.
+This repository documents my journey of learning **Data Structures and Algorithms (DSA) using JavaScript**.
 
-I am solving problems step by step starting from basic concepts to advanced topics.
+The goal of this repository is to improve my problem-solving skills, strengthen my programming logic, and prepare for technical interviews.
 
-📚 Topics Covered:
+I am solving problems step by step, starting with fundamental concepts and gradually moving toward advanced Data Structures and Algorithms.
 
-Currently I am focusing on fundamental DSA concepts:
+## 📚 Topics Covered
 
-Arrays
-Strings
+Currently, I am focusing on fundamental DSA concepts:
 
-More topics will be added as I progress.
+* Pattern Problems
+* Arrays
+* Strings
 
-📌 Array Problems
+More topics will be added as I continue learning and progressing in my DSA journey.
 
-These problems focus on array traversal and basic logic building.
+## 📌 Pattern Problems
 
-Find sum of array elements
-Find largest element in array
-Find smallest element in array
-Count even numbers in array
-Reverse an array
-Find average of array
-Find second largest element
-Check if array is sorted
-Count positive and negative numbers
-Find duplicate element
-📌 String Problems
+These problems focus on improving logical thinking, understanding nested loops, and developing problem-solving skills.
 
-These problems help practice string manipulation and character logic.
+* Basic Star Patterns
+* Hollow Square Pattern
+* Hollow Number Square Pattern
+* Concentric Number Square Pattern
 
-Find length of string
-Reverse string
-Check palindrome string
-Count vowels
-Count consonants
-Character frequency count
-Convert uppercase to lowercase
-Find first repeating character
-Remove spaces from string
-Check anagram
-💡 What I’m Learning
-Logic building
-Problem solving approach
-Algorithm thinking
-Writing clean JavaScript code
-🛠 Tech Stack
-JavaScript
-VS Code
-Git & GitHub
-🎯 Goal
+## 📌 Array Problems
 
-My goal is to:
+These problems focus on array traversal, basic operations, and logic building.
 
-Master Data Structures and Algorithms
-Improve problem solving skills
-Prepare for technical interviews
+* Find the sum of array elements
+* Find the largest element in an array
+* Find the smallest element in an array
+* Count even numbers in an array
+* Reverse an array
+* Find the average of array elements
+* Find the second-largest element
+* Check if an array is sorted
+* Count positive and negative numbers
+* Find duplicate elements
 
-More problems and topics will be added as I continue my learning journey.
+## 📌 String Problems
+
+These problems help me practice string manipulation and character-based logic.
+
+* Find the length of a string
+* Reverse a string
+* Check if a string is a palindrome
+* Count vowels
+* Count consonants
+* Count character frequencies
+* Convert uppercase characters to lowercase
+* Find the first repeating character
+* Remove spaces from a string
+* Check if two strings are anagrams
+
+## 💡 What I’m Learning
+
+* Logic building
+* Problem-solving approaches
+* Algorithmic thinking
+* Pattern recognition
+* Writing clean and readable JavaScript code
+* Using Git and GitHub to track my learning progress
+
+## 🛠 Tech Stack
+
+* JavaScript
+* Visual Studio Code
+* Git
+* GitHub
+
+## 🎯 Goal
+
+My goals are to:
+
+* Build strong problem-solving skills
+* Master Data Structures and Algorithms
+* Improve my programming and algorithmic thinking
+* Prepare for technical interviews
+* Become a better software engineer
+
+More problems, solutions, and DSA topics will be added as I continue my learning journey.
 
 ⭐ If you find this repository useful, feel free to explore the problems and solutions.
