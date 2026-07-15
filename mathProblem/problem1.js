@@ -1,4 +1,4 @@
-let n = 12345git ;
+let n = 12345;
 let count = 0;
 if(n == 0){
     count++
