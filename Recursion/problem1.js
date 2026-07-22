@@ -1,4 +1,3 @@
-let count = 1;
 
 // function print(){
 //     if(count > 5) return;
@@ -9,14 +8,17 @@ let count = 1;
    
 // }
 // print()
-
+let count = 1;
+let sum = 0
 class solution{
     printNumbers(n){
-        if(count > this.n) return;
-        console.log(count)
-        this.printNumbers(count +1)
+        if(count > n) return;
+        sum += count
+        count++
+        this.printNumbers(n)
     }
 
 }
 const obj = new solution();
-obj.printNumbers(5)
+obj.printNumbers(10)
+console.log(sum)
