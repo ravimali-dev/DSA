@@ -10,7 +10,7 @@
 // print()
 let count = 1;
 let sum = 0
-class solution{
+class Solution{
     printNumbers(n){
         if(count > n) return;
         sum += count
@@ -19,6 +19,6 @@ class solution{
     }
 
 }
-const obj = new solution();
+const obj = new Solution();
 obj.printNumbers(10)
 console.log(sum)
