@@ -1,16 +1,15 @@
+let arr = [10, 20, 10, 30, 20, 10];
 
+let myMap = new Map();
 
- let hash = {};
-class Solution {
-    countFrequencies(nums) {
-        // Your code goes here
+for(let i=0; i<arr.length; i++){
+    console.log(myMap.has(arr[i]))
+    if(myMap.has(arr[i])){
+      let oldValue =  myMap.get(arr[i])
+       myMap.set(arr[i], oldValue+1)
        
-        for(let num of nums){
-            hash[num] = (hash[num] || 0) + 1
-        }
+    }else{
+        myMap.set(arr[i], 1)
     }
 }
-
-let obj = new Solution();
-obj.countFrequencies([2,3,2,4,3,5])
-console.log(hash)
+console.log(myMap)
