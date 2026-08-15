@@ -11,8 +11,6 @@ for(let i=0; i<arr.length; i++){
         myMap.set(arr[i], 1)
     }
 }
-let highest = myMap.get(arr[i])
-console.log(highest)
 
  for(let [key, value] of myMap){
     
