@@ -1,16 +1,12 @@
-//Input: nums = [2,7,11,15], target = 9
-//Output: [0,1]
-
-let nums = [2,7,11,15];
+let arr = [2, 7, 11, 15];
 let target = 9;
-let left = 0;
-let right = nums.length;
 
-while(left < right){
-    if(nums[left] + nums[right] == target ){
-        console.log(left, right);
-        break;
+for (let i = 0; i < arr.length; i++) {
+    for (let j = i+1; j < arr.length; j++) {
+        if(arr[i] + arr[j] == target){
+            console.log(i,j)
+        }
+        
     }
-    left++;
-    right--
+    
 }
