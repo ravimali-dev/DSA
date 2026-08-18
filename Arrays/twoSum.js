@@ -1,5 +1,5 @@
-let arr = [2, 7, 11, 15];
-let target = 9;
+let arr = [3, 3];
+let target = 6;
 let map = new Map()
 
 for (let i = 0; i < arr.length; i++) {
