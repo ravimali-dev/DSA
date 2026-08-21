@@ -1,30 +1,15 @@
-let n = 4
+let n = 4;
 
-let rowValue
-let colValue
-
+let line = n*2-1;
 
 
-
-for (let row = 1 ; row <= n*2-1; row++) {
-
-    if(row <= n){
-   rowValue =   n - row + 1
-}else{
-   rowValue = row - n + 1
-}
+for(let i=1; i<=line; i++){
     let ans = "";
-
-    for (let coloum= 1; coloum <=n*2-1; coloum++) {
-
-       if(coloum <= n){
-     colValue = n - coloum + 1
-}else{
-   colValue = coloum - n + 1
-}
-ans += Math.max(colValue, rowValue) + " ";
-
+    let row = (n-i)+1;
+    if(row <= 0){
+        row = (i-n)+1
     }
+    ans += row
+    console.log(ans)
 
-    console.log(ans);
 }
